@@ -1,6 +1,7 @@
 //Creating controller to manage file structure and better readablity
 export const MovieCreate = (req, res) => {
-  res.send({ msg: "create movie" });
+ console.log(req.body)
+ return res.json(req.body)
 };
 export const MovieIndex = (req, res) => {
   res.send({ msg: "let to read movie" });

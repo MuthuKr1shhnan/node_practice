@@ -3,9 +3,13 @@ import router from "./routes/movies.routes.js";
 import connectDB from "./lib/db.js";
 
 const app = express();
+
+//Data understanding middleware
+app.use(express.json());
+
 const port = 6969;
 //connect MongoDB
-connectDB()
+connectDB();
 
 app.get("/", (req, res) => {
   res.send({ msg: "Hello World!" });
