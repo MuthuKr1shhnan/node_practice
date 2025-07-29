@@ -1,8 +1,11 @@
 import express from "express";
 import router from "./routes/movies.routes.js";
+import connectDB from "./lib/db.js";
 
 const app = express();
 const port = 6969;
+//connect MongoDB
+connectDB()
 
 app.get("/", (req, res) => {
   res.send({ msg: "Hello World!" });

@@ -1,1 +1,3 @@
 node_modules
+//hiding sesitive information
+.env
