@@ -1,11 +1,13 @@
 import express from "express";
 import router from "./routes/movies.routes.js";
 import connectDB from "./lib/db.js";
+import cors from "cors"
 
 const app = express();
 
 //Data understanding middleware
 app.use(express.json());
+app.use(cors())
 
 const port = 6969;
 //connect MongoDB
