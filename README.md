@@ -8,7 +8,7 @@ This is the backend server for the **Movie List** web application. It exposes a 
 
 ## 🔗 Frontend Repository
 
-👉 [View Frontend Code](https://github.com/your-username/your-frontend-repo-name](https://github.com/MuthuKr1shhnan/movie_list))
+👉 [View Frontend Code](https://github.com/MuthuKr1shhnan/movie_list)
 
 > Replace this link with your actual frontend GitHub repository URL.
 
