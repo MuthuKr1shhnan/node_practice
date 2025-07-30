@@ -25,5 +25,5 @@ This is the backend server for the **Movie List** web application. It exposes a 
 
 ---
 
-## 📁 Folder Structure
+
 
